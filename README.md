@@ -27,8 +27,13 @@ Testé sous un environnement **linux seulement**.
 bin/pipeline <filename>
 ```
 
+## Restriction
+Ce logiciel interprète des fichiers d'une **taille maximale** de 255 caractères. Au-delà de ce nombre, les caractères excédentaires seront ignorés.
+
 ## Références
 - [fork(2) — Linux manual page](https://man7.org/linux/man-pages/man2/fork.2.html)
 - [pipe(2) — Linux manual page](https://man7.org/linux/man-pages/man2/pipe.2.html)
+- [wait(2) — Linux manual page](https://man7.org/linux/man-pages/man2/waitpid.2.html)
 - [C Program to demonstrate fork() and pipe()](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/)
+- [Wait System Call in C](https://www.geeksforgeeks.org/wait-system-call-c/)
 - [Doxygen manual](http://cs.swan.ac.uk/~csoliver/ok-sat-library/internet_html/doc/doc/Doxygen/1.7.6.1/html/config.html)
