@@ -13,13 +13,15 @@ Concevoir un logiciel qui distingue les chiffres des lettres à partir d'un flux
 - [VS Code](https://code.visualstudio.com/), éditeur de texte pour modifier le code.
 - [C/C++ Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), extension du language C réservé à l'utilisation de VS Code.
 - [Doxygen](https://www.doxygen.nl/index.html), outil pour générer la documentation automatique.
+- [Valgrind](https://www.valgrind.org/), outil pour vérifier qu'il n'y a pas de fuites de mémoire.
 
 ## Compatibilité
 Testé sous un environnement **linux seulement**.
 
 ## Installation
 `make`, compile le logiciel.<br>
-`make doc`, génère la documentation du projet.<br>
+`make doc`, génère la documentation du projet. **(requiert Doxygen)**<br>
+`make memcheck`, vérifie qu'il n'y a pas de fuites de mémoire. **(requiert Valgrind)**<br>
 `make clean`, supprime les fichiers compilés.
 
 ## Fonctionnement
@@ -37,3 +39,4 @@ Ce logiciel interprète des fichiers d'une **taille maximale** de 255 caractère
 - [C Program to demonstrate fork() and pipe()](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/)
 - [Wait System Call in C](https://www.geeksforgeeks.org/wait-system-call-c/)
 - [Doxygen manual](http://cs.swan.ac.uk/~csoliver/ok-sat-library/internet_html/doc/doc/Doxygen/1.7.6.1/html/config.html)
+- [Valgrind User Manual](https://www.valgrind.org/docs/manual/manual.html)

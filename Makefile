@@ -21,5 +21,15 @@ doc:
 	echo "RECURSIVE=YES") | doxygen -
 	ln -rsf $@/html/index.html $@/index.html
 
+memcheck: default
+	echo "abc123" >> tmp
+	valgrind --leak-check=full \
+	--show-leak-kinds=all \
+	--track-origins=yes \
+	--verbose \
+	--log-file=valgrind.log \
+	bin/pipeline tmp
+	rm tmp
+
 clean:
-	rm -rf bin doc
+	rm -rf bin doc valgrind.log
