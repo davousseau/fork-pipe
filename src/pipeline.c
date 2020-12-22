@@ -144,7 +144,9 @@ void summateDigits(int *pipe)
     {
         sum = sum + (digit[i] - 48);
     }
-    fprintf(stdout, "La somme des chiffres est %d.\n", sum);
+    if(sum > 0) {
+        fprintf(stdout, "La somme des chiffres est %d.\n", sum);
+    }
     exit(EXIT_SUCCESS);
 }
 
