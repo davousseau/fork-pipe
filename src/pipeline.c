@@ -21,7 +21,7 @@ void printLetters(int *frequencies);
 void summateDigits(int *pipe);
 
 /**
- * Create all process childs
+ * @brief Create all process childs
  * @param pipe1 Pipe between child 1 and his parent
  * @param pipe2 Pipe between child 2 and his parent
  */
@@ -45,7 +45,7 @@ void createChilds(int *pipe1, int *pipe2)
 }
 
 /**
- * Create a new pipe.
+ * @brief Create a new pipe.
  * @return File descriptor
  */
 int *createPipe()
