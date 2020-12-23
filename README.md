@@ -6,7 +6,7 @@
 Projet effectué dans le cadre du cours **INF3172 Principes des systèmes d'exploitation**, remis à l'enseignante **Sonia Dimassi** à l'[Université du Québec à Montréal](https://etudier.uqam.ca/) le 15 avril 2019. Ce projet a été retranscris en décembre 2020 pour le rendre public et l'insérer dans mon porte-folio.
 
 ## Description
-Concevoir un logiciel qui distingue les chiffres des lettres à partir d'un flux de caractères à l'aide d'un [tube](https://fr.wikipedia.org/wiki/Tube_(shell)). Le logiciel doit afficher la somme des chiffres et la fréquence de chaque lettre.
+Conception d'un logiciel qui distingue les chiffres des lettres à partir d'un flux de caractères en utilisant un [tube](https://fr.wikipedia.org/wiki/Tube_(shell)). Le logiciel doit afficher la somme des chiffres et la fréquence de chaque lettre.
 
 ## Environnement suggéré
 - [Terminal Linux](https://doc.ubuntu-fr.org/terminal), terminal pour lancer des commandes.
