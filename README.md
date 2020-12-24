@@ -17,7 +17,7 @@ Conception d'un logiciel qui distingue les chiffres des lettres à partir d'un f
 - [Valgrind](https://www.valgrind.org/), outil pour vérifier qu'il n'y a pas de fuites de mémoire.
 
 ## Compatibilité
-Testé sous un environnement **linux seulement**.
+Testé sous un environnement **Linux seulement**.
 
 ## Installation
 `make`, compile le logiciel.<br>
