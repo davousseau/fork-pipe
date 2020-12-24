@@ -160,7 +160,7 @@ int main(int argc, char *argv[])
 {
     if (argc != 2)
     {
-        fprintf(stderr, "Use: bin/pipeline <filename>\n");
+        fprintf(stderr, "Usage: bin/pipeline <filename>\n");
         exit(EXIT_FAILURE);
     }
     char *buffer = readFile(argv[1]);
