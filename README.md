@@ -11,7 +11,8 @@ Conception d'un logiciel qui distingue les chiffres des lettres à partir d'un f
 ## Environnement suggéré
 - [Terminal Linux](https://doc.ubuntu-fr.org/terminal), terminal pour lancer des commandes.
 - [VS Code](https://code.visualstudio.com/), éditeur de texte pour modifier le code.
-- [C/C++ Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), extension du language C réservé à l'utilisation de VS Code.
+- [C/C++ Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), extension du language C réservé à l'usage de VS Code.
+- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight), extension d'affichage des TODOs réservé à l'usage de VS Code.
 - [Doxygen](https://www.doxygen.nl/index.html), outil pour générer la documentation automatique.
 - [Valgrind](https://www.valgrind.org/), outil pour vérifier qu'il n'y a pas de fuites de mémoire.
 
