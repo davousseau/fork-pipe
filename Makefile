@@ -12,17 +12,16 @@ bin:
 
 doc:
 	mkdir -p $@
-	(cat Doxyfile ; echo "GENERATE_LATEX=NO";\
-	echo "HAVE_DOT=NO";\
-	echo "OPTIMIZE_OUTPUT_FOR_C=YES";\
-	echo "OUTPUT_DIRECTORY="$@;\
-	echo "OUTPUT_LANGUAGE=French";\
-	echo "PROJECT_NAME=Communication inter-processus fork() et pipe()";\
-	echo "RECURSIVE=YES") | doxygen -
+	(cat Doxyfile ; echo 'GENERATE_LATEX=NO';\
+	echo 'HAVE_DOT=NO';\
+	echo 'OPTIMIZE_OUTPUT_FOR_C=YES';\
+	echo 'OUTPUT_DIRECTORY=$@';\
+	echo 'PROJECT_NAME="fork() & pipe()"';\
+	echo 'RECURSIVE=YES') | doxygen -
 	ln -rsf $@/html/index.html $@/index.html
 
 memcheck: default
-	echo "abc123" >> tmp
+	echo 'abc123' >> tmp
 	valgrind --leak-check=full \
 	--show-leak-kinds=all \
 	--track-origins=yes \
