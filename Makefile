@@ -2,13 +2,11 @@
 
 CFLAGS = -std=c99 -pedantic -W -Wall
 
-.PHONY: all clean
+.PHONY: default memcheck clean
 
-default: bin
+default:
+	mkdir -p bin
 	gcc src/pipeline.c -g $(CFLAGS) -o bin/pipeline
-
-bin:
-	mkdir -p $@
 
 doc:
 	mkdir -p $@
