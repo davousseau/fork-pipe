@@ -1,4 +1,4 @@
-# Communication inter-processus fork() et pipe()
+# fork() et pipe()
 ## Auteur
 [David Brousseau](mailto:dbrsseau@gmail.com)
 
@@ -9,7 +9,6 @@ Projet effectué dans le cadre du cours **INF3172 Principes des systèmes d'expl
 Conception d'un logiciel qui distingue les chiffres des lettres à partir d'un flux de caractères en utilisant un [tube](https://fr.wikipedia.org/wiki/Tube_(shell)). Le logiciel doit afficher la somme des chiffres et la fréquence de chaque lettre.
 
 ## Environnement suggéré
-- [Terminal Linux](https://doc.ubuntu-fr.org/terminal), terminal pour lancer des commandes.
 - [VS Code](https://code.visualstudio.com/), éditeur de texte pour modifier le code.
 - [C/C++ Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), extension du language C réservé à l'usage de VS Code.
 - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight), extension d'affichage des TODOs réservé à l'usage de VS Code.
