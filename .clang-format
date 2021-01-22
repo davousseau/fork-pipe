@@ -19,7 +19,6 @@ ConstructorInitializerAllOnOneLineOrOnePerLine: true
 IncludeBlocks: Regroup
 IndentPPDirectives: AfterHash
 IndentWidth: 4
-KeepEmptyLinesAtTheStartOfBlocks: false
 Language: Cpp
 NamespaceIndentation: All
 ObjCBlockIndentWidth: 4
