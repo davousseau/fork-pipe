@@ -16,11 +16,12 @@ Testé sous un environnement **Linux seulement**.
 - [Doxygen <sup>*</sup>](https://www.doxygen.nl/index.html), outil pour générer la documentation automatique.
 - [Valgrind <sup>*</sup>](https://www.valgrind.org/), outil pour vérifier qu'il n'y a pas de fuites de mémoire.
 
-_<sup>*</sup> Dépendances optionnelles selon votre utilisation._ 
+_<sup>*</sup> Dépendances optionnelles selon votre utilisation._
 
 ## Environnement suggéré
 - [VS Code](https://code.visualstudio.com/), éditeur de texte pour modifier le code.
     - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), extension pour le language C/C++.
+    - [Clang-Format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format), extension pour le formatage du code.
     - [Doxygen Documentation Generator](https://marketplace.visualstudio.com/items?itemName=cschlosser.doxdocgen), extension pour générer la documentation.
     - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight), extension pour afficher les TODOs.
 
@@ -38,14 +39,9 @@ Ce logiciel interprète des fichiers d'une **taille maximale** de 255 caractère
 bin/pipeline <filename>
 ```
 
-## Documentations
-- [C Programming Language](https://devdocs.io/c/)
+## Références
 - [fork(2) — Linux manual page](https://man7.org/linux/man-pages/man2/fork.2.html)
 - [pipe(2) — Linux manual page](https://man7.org/linux/man-pages/man2/pipe.2.html)
 - [wait(2) — Linux manual page](https://man7.org/linux/man-pages/man2/waitpid.2.html)
-- [Doxygen manual](http://cs.swan.ac.uk/~csoliver/ok-sat-library/internet_html/doc/doc/Doxygen/1.7.6.1/html/config.html)
-- [Valgrind User Manual](https://www.valgrind.org/docs/manual/manual.html)
-
-## Références
 - [C Program to demonstrate fork() and pipe()](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/)
 - [Wait System Call in C](https://www.geeksforgeeks.org/wait-system-call-c/)
