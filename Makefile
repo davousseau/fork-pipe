@@ -1,5 +1,3 @@
-# @author: David Brousseau
-
 CFLAGS = -std=c99 -pedantic -W -Wall
 
 .PHONY: default memcheck clean
