@@ -15,7 +15,7 @@
 
 #define MAX_LENGTH 255 /**< Buffer maximum length */
 
-// These function declarations are required to use alphabetical order
+// Function declarations
 void groupFrequencies(int * pipe);
 void printLetters(int * frequencies);
 void summateDigits(int * pipe);
