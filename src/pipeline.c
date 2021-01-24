@@ -24,7 +24,7 @@ void summateDigits(int *pipe);
  * @brief Create all process childs
  * @param pipe1 Pipe between child 1 and his parent
  * @param pipe2 Pipe between child 2 and his parent
- * REMINDER: The pipes must be freed in each child to avoid memory leaks.
+ * NOTE: The pipes must be freed in each child to avoid memory leaks.
  */
 void createChilds(int *pipe1, int *pipe2) {
     int child1 = fork();
@@ -156,7 +156,7 @@ int main(int argc, char *argv[]) {
             write(pipe2[1], &buffer[i], 1);
         }
     }
-    // REMINDER: The buffer must be freed before the creation of the childs to avoid memory leaks.
+    // NOTE: The buffer must be freed before the creation of the childs to avoid memory leaks.
     free(buffer);
     createChilds(pipe1, pipe2);
     return EXIT_SUCCESS;
