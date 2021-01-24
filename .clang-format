@@ -22,7 +22,6 @@ IndentWidth: 4
 Language: Cpp
 NamespaceIndentation: All
 ObjCBlockIndentWidth: 4
-PointerAlignment: Middle
 SpaceAfterCStyleCast: true
 SpaceAfterLogicalNot: true
 SpaceBeforeCpp11BracedList: true
