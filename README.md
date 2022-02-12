@@ -1,6 +1,6 @@
 # fork() et pipe()
 ## Auteur
-[David Brousseau](mailto:dbrsseau@gmail.com)
+[David Brousseau](mailto:davousseau@gmail.com)
 
 ## Contexte académique
 Projet effectué dans le cadre du cours **INF3172 Principes des systèmes d'exploitation**, remis à l'enseignante **Sonia Dimassi** à l'[Université du Québec à Montréal](https://etudier.uqam.ca/) le 15 avril 2019. Ce projet a été retranscris en décembre 2020 pour le rendre public et l'insérer dans mon porte-folio.
